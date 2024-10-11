@@ -11,7 +11,7 @@ This file contains the list of categories for books and resources included in **
    - [Searching Algorithms](./Algorithms/Searching/)
    - [Graph Algorithms](./Algorithms/Graph/)
    - [Dynamic Programming](./Algorithms/Dynamic-Programming/)
-
+   - [Programming Theory](./Algorithms/Programming-Theory/)
 2. [**Artificial Intelligence**](./Artificial-Intelligence/)
 
    - [Machine Learning](./Artificial-Intelligence/Machine-Learning/)
@@ -67,6 +67,7 @@ This file contains the list of categories for books and resources included in **
    - Number Theory
    - Graph Theory
    - Cryptography
+   - Math Theory
 
 8. **Programming**
 
