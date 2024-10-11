@@ -19,6 +19,8 @@ In general, algorithms provide a specific computational method to establish the 
 - [The Algorithm Design Manual](https://mimoza.marmara.edu.tr/~msakalli/cse706_12/SkienaTheAlgorithmDesignManual.pdf) - Steven S. Skiena  
   Provides practical guidance on algorithm design and implementation.
 
+- [Towards a Definition of an Algorithm](https://www.researchgate.net/publication/2125636_Towards_a_Definition_of_an_Algorithm) A complete explanation of "What is an Algorithm" by Noson S. Yanofsky
+
 ### Articles:
 - [Basic Algorithms](https://dev.to/m__mdy__m/basic-algorithms-5bep) This article provides a beginner-friendly overview of fundamental algorithms, explaining their importance and applications in computer science.
 
