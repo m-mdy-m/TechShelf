@@ -59,7 +59,7 @@ This file contains the list of categories for books and resources included in **
    - Data Warehousing and Big Data
 
 7. **Mathematics**
-
+   - Basic
    - Discrete Mathematics
    - Calculus
    - Linear Algebra
