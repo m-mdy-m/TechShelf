@@ -85,7 +85,7 @@ Computer architecture is crucial because it directly impacts how efficiently a c
 - **Level**: Advanced
 - **Why It’s Great**: This book dives deep into **superscalar processor design**, which is critical for understanding how modern CPUs execute multiple instructions in parallel. It’s ideal for advanced learners who want to study high-performance computing architectures.
 - **Topics Covered**: Superscalar pipeline design, branch prediction, dynamic scheduling, and out-of-order execution.
-- **Get the Book**: [Modern Processor Design](https://acs.pub.ro/~cpop/SMPA/Modern%20Processor%20Design_%20Fundamentals%20of%20Superscalar%20Processors%20(%20PDFDrive%20).pdf)
+- **Get the Book**: [Modern Processor Design](<https://acs.pub.ro/~cpop/SMPA/Modern%20Processor%20Design_%20Fundamentals%20of%20Superscalar%20Processors%20(%20PDFDrive%20).pdf>)
 
 ---
 
@@ -99,3 +99,6 @@ Computer architecture is crucial because it directly impacts how efficiently a c
 2. **Computer Design and Architecture**
    - **[PDF Document](https://201-shi.yolasite.com/resources/Computer%20Design%20and%20Architecture.pdf)**
    - This resource provides an overview of various computer architectures and their impact on performance, discussing pipelining, memory hierarchies, and I/O systems.
+3. **Computer Systems: A Programmer’s Perspective**
+   - **[PDF Link 1](https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/books/CSAPP_2016.pdf)** and **[PDF Link 2](http://54.186.36.238/Computer%20Systems%20-%20A%20Programmer%27s%20Persp.%202nd%20ed.%20-%20R.%20Bryant%2C%20D.%20O%27Hallaron%20%28Pearson%2C%202010%29%20BBS.pdf)**
+   - Written by Randal E. Bryant and David R. O’Hallaron, this book presents a programmer-focused view of computer systems. It dives into low-level concepts that affect how programs interact with hardware and includes topics like memory management, system-level I/O, and how architectural details influence program performance.
