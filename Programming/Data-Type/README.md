@@ -11,8 +11,13 @@ Most programming languages include a set of primitive data types (e.g., integers
 
 ## Recommended Books and Resources
 
-### Books
+### **Books**
 
-- [Chapter 6 - Data Types](https://www2.cs.sfu.ca/CourseCentral/383/dma/notes/chapter6.pdf)
+1. **[Chapter 6 - Data Types](https://www2.cs.sfu.ca/CourseCentral/383/dma/notes/chapter6.pdf)**  
+   This PDF from Simon Fraser University covers data types in depth, explaining the fundamentals of type systems, different types of data structures, and their roles in programming languages. It’s a useful resource for understanding how data types are structured and implemented.
 
-## Additional Links
+2. **[Data Types and Structures: Detailed Explanation](https://ohm.ni.com/pdf/labview101/us/datatypes_explanation.pdf)**  
+   A comprehensive guide focused on data types and structures in LabVIEW, this document explains how different data types are used, their properties, and the ways they affect programming logic. Though it uses LabVIEW as a context, the general concepts are applicable to other programming languages.
+
+3. **[Data Types Notes - Tamiu](https://www.tamiu.edu/uc/ace/documents/study-resources/csce-data-types.pdf)**  
+   This document from Texas A&M International University introduces data types, covering the basic categories and their applications. It’s a helpful primer for beginners learning about the significance of data types in programming.
