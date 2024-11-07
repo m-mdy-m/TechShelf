@@ -70,4 +70,8 @@ Understanding different paradigms allows developers to choose the most suitable 
 
 3. **Imperative Programming Guide**  
    - **[Read PDF](https://www.lsraheja.org/wp-content/uploads/2019/09/Imperative-Programming.pdf)**  
-   - This resource explains the imperative paradigm, with focus on program state, control flow, and sequence of operations.
+   - This guide provides an in-depth overview of the imperative programming paradigm, explaining its emphasis on program state, control flow, and the order of operations. It is ideal for understanding how imperative programming drives the program by a sequence of commands.
+
+4. **Programming Paradigms and Languages**  
+   - **[Read PDF](http://www.icet.ac.in/Uploads/Downloads/CS403%20PP.pdf)**  
+   - This document offers a comprehensive breakdown of various programming paradigms, including imperative, functional, and object-oriented. It discusses each paradigm’s principles and provides examples in different programming languages to illustrate how these paradigms are applied in practice. 
