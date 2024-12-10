@@ -27,3 +27,4 @@ Programming languages are formal systems used to write instructions that a compu
 
 - **[Types in Programming Languages - Comprehensive Notes](https://cs.brown.edu/courses/cs173/2012/book/book.pdf)**  
    This PDF provides a structured approach to understanding types in programming languages, discussing the theoretical foundations of type systems and their practical applications.
+- **[Programming Languages Book (University of São Paulo)](https://www.ime.usp.br/~alvaroma/ucsp/proglang/book.pdf)**  This resource offers a concise overview of programming languages, covering key concepts and applications in language design and implementation.
