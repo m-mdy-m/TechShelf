@@ -12,23 +12,26 @@ Here are some excellent books and resources for learning C. Click the links to a
 
 ### Books
 
-1. **[The C Programming Language (Second Edition)](https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/books/C_Book_2nd.pdf)**
+1. **[C How To Program](https://dl.ebooksworld.ir/books/C.How.to.Program.9th.Edition.Paul.Deitel.Pearson.9780137398393.EBooksWorld.ir.pdf)**
+   - This book, widely known as Deitel & Deitel, is the ultimate guide to learning C programming from the ground up. Renowned for its clarity and depth, it offers a wealth of exercises, best practices, and thorough explanations for every topic it covers. Whether you're a beginner or looking to refine your skills, this book provides everything you need to master C and build a strong programming foundation.
+
+2. **[The C Programming Language (Second Edition)](https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/books/C_Book_2nd.pdf)**
 
    - Written by Brian Kernighan and Dennis Ritchie, this book, often called _K&R_, is the definitive guide to learning C. It provides a thorough introduction to the language, along with examples and exercises that are ideal for beginners and professionals alike.
 
-2. **[C Programming: A Modern Approach (Second Edition)](https://dokumen.pub/qdownload/c-programming-a-modern-approach-second-edition-2nbsped-9780393979503-2007049425.html)**
+3. **[C Programming: A Modern Approach (Second Edition)](https://dokumen.pub/qdownload/c-programming-a-modern-approach-second-edition-2nbsped-9780393979503-2007049425.html)**
 
    - This book by K. N. King is a comprehensive resource that covers both fundamental and advanced topics in C, with plenty of examples, exercises, and tips for best practices.
 
-3. **[Head First C](http://karadev.net/uroci/filespdf/files/head-first-c-o-reilly-david-grifffiths-dawn-griffiths.pdf)**
+4. **[Head First C](http://karadev.net/uroci/filespdf/files/head-first-c-o-reilly-david-grifffiths-dawn-griffiths.pdf)**
 
    - A beginner-friendly book by David Griffiths and Dawn Griffiths that uses engaging visuals and hands-on projects to teach C programming concepts effectively.
 
-4. **[Expert C Programming: Deep C Secrets](https://progforperf.github.io/Expert_C_Programming.pdf)**
+5. **[Expert C Programming: Deep C Secrets](https://progforperf.github.io/Expert_C_Programming.pdf)**
 
    - Written by Peter van der Linden, this book dives into advanced concepts and provides practical tips, tricks, and insights into professional C programming.
 
-5. **[SEI CERT C Coding Standard](https://resources.sei.cmu.edu/downloads/secure-coding/assets/sei-cert-c-coding-standard-2016-v01.pdf)**
+6. **[SEI CERT C Coding Standard](https://resources.sei.cmu.edu/downloads/secure-coding/assets/sei-cert-c-coding-standard-2016-v01.pdf)**
    - A resource from the Software Engineering Institute that focuses on secure coding practices in C, providing guidelines to write reliable and maintainable code.
 
 ### Additional Links
