@@ -4,96 +4,26 @@ This file contains the list of categories for books and resources included in **
 
 ## **Categories Overview**
 
-1. [**Algorithms**](./Algorithms/)
+### 1. **[Algorithms](./Algorithms/)**
 
-   - [Sorting Algorithms](./Algorithms/Sorting/)
-   - [Big O](./Algorithms/Big-O/)
-   - [Searching Algorithms](./Algorithms/Searching/)
-   - [Graph Algorithms](./Algorithms/Graph/)
-   - [Dynamic Programming](./Algorithms/Dynamic-Programming/)
-   - [Programming Theory](./Algorithms/Programming-Theory/)
-2. [**Artificial Intelligence**](./Artificial-Intelligence/)
+### 2. **[Artificial Intelligence](./Artificial-Intelligence/)**
 
-   - [Machine Learning](./Artificial-Intelligence/Machine-Learning/)
-   - Deep Learning
-   - Neural Networks
-   - Natural Language Processing (NLP)
+### 3. **[Computer Architecture](./Computer-Architecture/)**
 
-3. **Computer Architecture**
+### 4. **[Containerization](./Containerization/)**
 
-   - Von Neumann Architecture
-   - Parallel Processing
-   - Microarchitecture
-   - Pipelining and Superscalar Design
-   - Memory Hierarchy (Cache, RAM, etc.)
-   - Quantum Computing
-   - Modern Processor Design (ARM, RISC-V)
+### 5. **[CS (Computer Science)](<./CS(computer%20science)/>)**
 
-4. **Containerization**
+### 6. **[Data Structures](./Data-Structures/)**
 
-   - Docker Basics
-   - Kubernetes
-   - Container Orchestration
-   - Container Networking
-   - Scaling with Containers
-   - CI/CD with Containers
+### 7. **[Databases](./Databases/)**
 
-5. **Data Structures**
+### 8. **[Mathematics](./Mathematics/)**
 
-   - Arrays
-   - Linked Lists
-   - Stacks and Queues
-   - Trees (Binary, AVL, Red-Black)
-   - Graphs
-   - Hash Tables
-   - Heaps and Priority Queues
+### 9. **[Problem Solving](./Problem-Solving/)**
 
-6. **Databases**
+### 10. **[Programming](./Programming/)**
 
-   - Relational Databases (SQL)
-   - NoSQL Databases
-   - Database Design and Normalization
-   - Query Optimization
-   - Indexing and Searching
-   - Distributed Databases
-   - Data Warehousing and Big Data
+### 11. **[Programming Languages](./Programming-Languages/)**
 
-7. **Mathematics**
-   - Basic
-   - Discrete Mathematics
-   - Calculus
-   - Linear Algebra
-   - Probability and Statistics
-   - Number Theory
-   - Graph Theory
-   - Cryptography
-   - Math Theory
-
-8. **Programming**
-
-   - Procedural Programming
-   - Object-Oriented Programming
-   - Functional Programming
-   - Concurrent Programming
-   - Scripting
-   - Debugging and Testing
-   - Code Optimization
-
-9. **Programming Languages**
-
-   - C, C++, Rust
-   - Python, Java, Go
-   - JavaScript, TypeScript
-   - Ruby, Perl, PHP
-   - Functional Languages (Haskell, Lisp)
-   - JVM Languages (Scala, Kotlin)
-   - Language Design and Theory
-
-10. **Software Engineering**
-    - Software Design Patterns
-    - Agile Methodologies
-    - Version Control (Git)
-    - Software Testing (Unit, Integration, E2E)
-    - Requirements Engineering
-    - Software Architecture
-    - DevOps Practices and CI/CD
+### 12. **[Software Engineering](./Software-Engineering/)**
