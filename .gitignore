@@ -1,0 +1,8 @@
+go.work
+.env
+.vscode/
+# Logs
+*.log
+logs/
+bin
+vendor
