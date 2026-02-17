@@ -5,5 +5,35 @@
     "description": "A personal library catalog — books, papers, and ideas worth keeping.",
     "last_updated": "2026-02-17"
   },
-  "books": []
+  "books": [
+    {
+      "id": "a-mathematical-introduction-to-logic",
+      "title": "A Mathematical Introduction to Logic",
+      "author": [
+        "Herbert B. Enderton"
+      ],
+      "category": "mathematics",
+      "status": "unread",
+      "level": "advanced",
+      "language": "English",
+      "added_date": "2026-02-17",
+      "source": {},
+      "subcategory": "logic",
+      "year_published": 1972,
+      "tags": [
+        "logic",
+        "mathematical-logic",
+        "propositional",
+        "first-order",
+        "completeness"
+      ],
+      "description": "Rigorous mathematical treatment of propositional and first-order logic, including completeness and compactness theorems.",
+      "why_read": "The clearest and most precise introduction to mathematical logic at the graduate level.",
+      "importance": "Standard graduate-level logic textbook.",
+      "pairs_well_with": [
+        "mathematical-logic-shoenfield",
+        "principia-mathematica"
+      ]
+    }
+  ]
 }
