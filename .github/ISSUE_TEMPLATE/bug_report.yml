@@ -1,0 +1,64 @@
+name: Bug report
+description: Something is broken or behaving unexpectedly
+labels: [bug]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill in as much detail as possible.
+
+  - type: input
+    id: version
+    attributes:
+      label: shelf version
+      description: Output of `shelf version`
+      placeholder: "version=dev commit=abc123 build_date=..."
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS / platform
+      placeholder: "macOS 14, Ubuntu 24.04, Windows 11..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. shelf add --json '...'
+        2. shelf find --q "..."
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: catalog
+    attributes:
+      label: Relevant catalog.json snippet (optional)
+      render: json
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output / logs
+      render: shell

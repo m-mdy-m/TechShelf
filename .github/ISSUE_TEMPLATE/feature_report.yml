@@ -1,0 +1,56 @@
+name: Feature request
+description: Suggest an improvement or new command
+labels: [enhancement]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? Describe it below.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+      description: What pain point does this address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work? Include example CLI usage if possible.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - add command
+        - remove command
+        - find command
+        - stats command
+        - shelf sync / markdown output
+        - catalog schema
+        - CLI / prompts / UX
+        - build / Makefile
+        - documentation
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches you thought about (optional).
+
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: Contribution
+      options:
+        - label: I'm willing to implement this myself
