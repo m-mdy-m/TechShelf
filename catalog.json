@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "meta": {
+    "name": "techShelf",
+    "description": "A personal library catalog — books, papers, and ideas worth keeping.",
+    "last_updated": "2026-02-17"
+  },
+  "books": []
+}
