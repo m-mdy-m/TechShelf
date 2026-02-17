@@ -11,11 +11,6 @@ import (
 	"time"
 )
 
-var (
-	ValidLevels   = []string{"beginner", "intermediate", "advanced", "general"}
-	ValidStatuses = []string{"unread", "reading", "completed", "paused"}
-)
-
 type Catalog struct {
 	Version string      `json:"version"`
 	Meta    CatalogMeta `json:"meta"`
@@ -32,10 +27,10 @@ type Book struct {
 	ID            string   `json:"id"`
 	Title         string   `json:"title"`
 	Author        []string `json:"author"`
-	YearPublished *int     `json:"year_published,omitempty"`
-	Language      string   `json:"language,omitempty"`
 	Category      string   `json:"category"`
 	Subcategory   string   `json:"subcategory,omitempty"`
+	YearPublished *int     `json:"year_published,omitempty"`
+	Language      string   `json:"language,omitempty"`
 	Tags          []string `json:"tags,omitempty"`
 	Level         string   `json:"level,omitempty"`
 	Description   string   `json:"description,omitempty"`
@@ -44,7 +39,7 @@ type Book struct {
 	Importance    string   `json:"importance,omitempty"`
 	Prerequisites []string `json:"prerequisites,omitempty"`
 	PairsWellWith []string `json:"pairs_well_with,omitempty"`
-	Source        Source   `json:"source"`
+	Source        Source   `json:"source,omitempty"`
 	Status        string   `json:"status,omitempty"`
 	Notes         string   `json:"notes,omitempty"`
 	AddedDate     string   `json:"added_date,omitempty"`
@@ -77,8 +72,7 @@ func (c *Catalog) Save(path string) error {
 	if err != nil {
 		return err
 	}
-	b = append(b, '\n')
-	return os.WriteFile(filepath.Clean(path), b, 0o644)
+	return os.WriteFile(filepath.Clean(path), append(b, '\n'), 0o644)
 }
 
 func (c *Catalog) AddBook(book Book) error {
@@ -89,40 +83,44 @@ func (c *Catalog) AddBook(book Book) error {
 		book.ID = c.UniqueID(Slugify(book.Title))
 	}
 	if c.IDExists(book.ID) {
-		return errors.New("book id already exists")
+		return errors.New("book id already exists: " + book.ID)
 	}
-	book.Level = normalizeLevel(book.Level)
+
+	book.Level = NormalizeLevel(book.Level)
 	if book.Level == "" {
-		book.Level = "general"
+		book.Level = DefaultLevel
 	}
-	if !containsStringFold(ValidLevels, book.Level) {
-		return errors.New("invalid level")
+	if !ContainsStringFold(Levels, book.Level) {
+		return errors.New("invalid level: " + book.Level)
 	}
-	book.Status = normalizeStatus(book.Status)
+
+	book.Status = NormalizeStatus(book.Status)
 	if book.Status == "" {
-		book.Status = "unread"
+		book.Status = DefaultStatus
 	}
-	if !containsStringFold(ValidStatuses, book.Status) {
-		return errors.New("invalid status")
+	if !ContainsStringFold(Statuses, book.Status) {
+		return errors.New("invalid status: " + book.Status)
 	}
+
 	if book.Language == "" {
-		book.Language = "English"
+		book.Language = DefaultLanguage
 	}
 	if book.AddedDate == "" {
 		book.AddedDate = time.Now().Format("2006-01-02")
 	}
+
 	c.Books = append(c.Books, book)
 	return nil
 }
 
-func (c *Catalog) RemoveBook(id string) bool {
+func (c *Catalog) RemoveBook(id string) (Book, bool) {
 	for i, b := range c.Books {
 		if b.ID == id {
 			c.Books = append(c.Books[:i], c.Books[i+1:]...)
-			return true
+			return b, true
 		}
 	}
-	return false
+	return Book{}, false
 }
 
 func (c *Catalog) IDExists(id string) bool {
@@ -139,46 +137,30 @@ func (c *Catalog) UniqueID(base string) string {
 		return base
 	}
 	for i := 2; ; i++ {
-		cand := base + "-" + strconv.Itoa(i)
-		if !c.IDExists(cand) {
+		if cand := base + "-" + strconv.Itoa(i); !c.IDExists(cand) {
 			return cand
 		}
 	}
 }
 
+func (c *Catalog) BooksInCategory(category string) []Book {
+	var out []Book
+	for _, b := range c.Books {
+		if strings.EqualFold(b.Category, category) {
+			out = append(out, b)
+		}
+	}
+	return out
+}
+
 func Slugify(s string) string {
 	s = strings.ToLower(strings.TrimSpace(s))
-	replacer := strings.NewReplacer(" ", "-", "_", "-", "/", "-", ".", "", ",", "", ":", "", "'", "")
-	s = replacer.Replace(s)
+	r := strings.NewReplacer(" ", "-", "_", "-", "/", "-", ".", "", ",", "", ":", "", "'", "")
+	s = r.Replace(s)
 	for strings.Contains(s, "--") {
 		s = strings.ReplaceAll(s, "--", "-")
 	}
 	return strings.Trim(s, "-")
 }
 
-func normalizeStatus(status string) string {
-	s := strings.ToLower(strings.TrimSpace(status))
-	switch s {
-	case "read":
-		return "completed"
-	case "in-progress":
-		return "reading"
-	case "todo":
-		return "unread"
-	default:
-		return s
-	}
-}
-
-func normalizeLevel(level string) string {
-	return strings.ToLower(strings.TrimSpace(level))
-}
-
-func containsStringFold(values []string, target string) bool {
-	for _, v := range values {
-		if strings.EqualFold(v, target) {
-			return true
-		}
-	}
-	return false
-}
+func strPtr(v string) *string { return &v }
