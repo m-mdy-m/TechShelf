@@ -28,3 +28,20 @@ func FileExists(path string) bool {
 	_, err := os.Stat(path)
 	return err == nil
 }
+
+func ListCategories(shelvesDir string) ([]string, error) {
+	entries, err := os.ReadDir(shelvesDir)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil, nil
+		}
+		return nil, err
+	}
+	var cats []string
+	for _, e := range entries {
+		if e.IsDir() {
+			cats = append(cats, e.Name())
+		}
+	}
+	return cats, nil
+}
