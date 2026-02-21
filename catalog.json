@@ -7,33 +7,879 @@
   },
   "books": [
     {
-      "id": "a-mathematical-introduction-to-logic",
-      "title": "A Mathematical Introduction to Logic",
-      "author": [
-        "Herbert B. Enderton"
-      ],
-      "category": "mathematics",
-      "status": "unread",
-      "level": "advanced",
+      "id": "writing-a-compiler-in-go",
+      "title": "Writing A Compiler In Go",
+      "author": ["Thorsten Ball"],
+      "category": "programming",
+      "subcategory": "compilers",
+      "year_published": 2018,
       "language": "English",
-      "added_date": "2026-02-17",
-      "source": {},
+      "tags": [
+        "compiler",
+        "virtual machine",
+        "go",
+        "programming languages",
+        "bytecode"
+      ],
+      "level": "intermediate",
+      "description": "A hands-on guide to building a bytecode compiler and virtual machine in Go from scratch, extending the Monkey language to compile and execute code. It emphasizes working, tested code and practical implementation over theory. :contentReference[oaicite:0]{index=0}",
+      "why_read": "If you want to understand how compilers and virtual machines work by building one yourself, this book gives a clear, motivated, and practical path using real code. :contentReference[oaicite:1]{index=1}",
+      "when_to_read": "After completing a basics compiler or interpreter tutorial, or after reading 'Writing An Interpreter In Go', because this book continues from that foundation. :contentReference[oaicite:2]{index=2}",
+      "importance": "A great bridge between beginner compiler tutorials and more advanced texts — it gives practical skills and deeper insight into the nuts and bolts of compiler construction. :contentReference[oaicite:3]{index=3}",
+      "prerequisites": [
+        "writing-an-interpreter-in-go",
+        "basic Go programming",
+        "parsing fundamentals"
+      ],
+      "pairs_well_with": [
+        "crafting-interpreters",
+        "modern-compiler-implementation"
+      ],
+      "source": {
+        "online_url": "https://dokumen.pub/writing-a-compiler-in-go.html",
+        "file_path": "books/writing-a-compiler-in-go_compress.pdf"
+      },
+      "status": "unread"
+    },
+    {
+      "id": "psychology-of-money",
+      "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
+      "author": ["Morgan Housel"],
+      "category": "personal-finance",
+      "subcategory": "behavioral-finance",
+      "year_published": 2020,
+      "language": "English",
+      "tags": [
+        "personal finance",
+        "behavioral finance",
+        "wealth",
+        "investing",
+        "psychology"
+      ],
+      "level": "general",
+      "description": "A thought-provoking exploration of how human psychology influences financial decisions, arguing that success with money depends more on behavior, perspective, patience, and emotional discipline than technical expertise. The book uses stories and examples to teach timeless lessons on wealth, greed, happiness, and how people relate to money.",
+      "why_read": "It reframes money management as a behavioral challenge rather than a technical one, offering insights that help improve financial decision-making, savings habits, and long-term planning. It’s highly recommended for anyone who wants to understand how emotion and mindset shape financial outcomes. :contentReference[oaicite:0]{index=0}",
+      "when_to_read": "Great for after learning basic budgeting or investing concepts, or anytime you feel stuck in financial habits or decision-making. :contentReference[oaicite:1]{index=1}",
+      "importance": "A modern classic in personal finance and behavioral economics that’s influenced millions of readers and is recommended on top reading lists for long-term financial mindset development. :contentReference[oaicite:2]{index=2}",
+      "prerequisites": ["basic personal finance"],
+      "pairs_well_with": ["the-intelligent-investor", "thinking-fast-and-slow"],
+      "source": {
+        "online_url": "https://tiue.uz/wp-content/uploads/2024/02/The-Psychology-of-Money-Morgan-Housel.pdf",
+        "file_path": "books/The-Psychology-of-Money-Morgan-Housel.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-laws-of-human-nature",
+      "title": "The Laws of Human Nature",
+      "author": ["Robert Greene"],
+      "category": "psychology",
+      "subcategory": "behavioral-science",
+      "year_published": 2018,
+      "language": "English",
+      "tags": [
+        "human behavior",
+        "psychology",
+        "social intelligence",
+        "self understanding",
+        "relationships"
+      ],
+      "level": "general",
+      "description": "An in-depth exploration of human drives, motivations, and biases — Greene breaks down 18 core \"laws\" of human behavior using historical examples and psychological insight to help readers better understand themselves and others. :contentReference[oaicite:1]{index=1}",
+      "why_read": "It offers a strategic framework for interpreting behaviors, improving empathy, and navigating social dynamics more successfully in personal and professional contexts. :contentReference[oaicite:2]{index=2}",
+      "when_to_read": "After you've read some introductory psychology or books on social dynamics and want a broad, integrative perspective on human nature. ",
+      "importance": "Considered one of Greene’s most comprehensive works, blending history, psychology, and philosophy to give readers practical tools for understanding behavior. :contentReference[oaicite:3]{index=3}",
+      "prerequisites": [
+        "basic psychology",
+        "social cognition"
+      ],
+      "pairs_well_with": [
+        "48-laws-of-power",
+        "mastery"
+      ],
+      "source": {
+        "online_url": "https://centralcollegegh.com/wp-content/uploads/2023/09/The-Laws-of-Human-Nature-by-Robert-Greene-z-lib.org_.pdf",
+        "file_path": "books/The-Laws-of-Human-Nature-by-Robert-Greene-z-lib.org_.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-idea-of-justice",
+      "title": "The Idea of Justice",
+      "author": ["Amartya Sen"],
+      "category": "philosophy",
+      "subcategory": "political-philosophy",
+      "year_published": 1933,
+      "language": "English",
+      "tags": [
+        "justice",
+        "political philosophy",
+        "ethics",
+        "capability approach",
+        "social choice theory",
+        "rawls",
+        "economics"
+      ],
+      "level": "advanced",
+      "description": "A major work in political philosophy arguing for a comparative, realization-focused theory of justice rather than a transcendental search for perfectly just institutions. Sen critiques Rawls and develops the capability approach as a practical framework for evaluating justice.",
+      "why_read": "It bridges philosophy and economics, offering a powerful alternative to ideal-theory models of justice and grounding moral reasoning in real-world human capabilities.",
+      "when_to_read": "After familiarity with basic political philosophy, especially Rawls' theory of justice, or when exploring ethics, welfare economics, and development theory.",
+      "importance": "One of the most influential contemporary works on justice theory and development ethics.",
+      "prerequisites": [
+        "basic political philosophy",
+        "familiarity with Rawls' theory of justice",
+        "introductory ethics"
+      ],
+      "pairs_well_with": [
+        "a-theory-of-justice",
+        "development-as-freedom"
+      ],
+      "source": {
+        "online_url": "https://www.jsscacs.edu.in/sites/default/files/Files/The_idea_of_justice_Amartya_Sen.pdf",
+        "file_path": "books/The_idea_of_justice_Amartya_Sen.pdf"
+      },
+      "status": "unread",
+      "notes": "Pay attention to the critique of transcendental institutionalism and the development of the capability framework.",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "organon-aristotle",
+      "title": "The Organon",
+      "author": ["Aristotle"],
+      "category": "philosophy",
       "subcategory": "logic",
-      "year_published": 1972,
+      "year_published": -350,
+      "language": "English",
       "tags": [
         "logic",
-        "mathematical-logic",
-        "propositional",
-        "first-order",
-        "completeness"
+        "syllogism",
+        "classical philosophy",
+        "epistemology",
+        "reasoning",
+        "foundations of logic"
       ],
-      "description": "Rigorous mathematical treatment of propositional and first-order logic, including completeness and compactness theorems.",
-      "why_read": "The clearest and most precise introduction to mathematical logic at the graduate level.",
-      "importance": "Standard graduate-level logic textbook.",
+      "level": "advanced",
+      "description": "A collection of Aristotle’s works on logic, including Categories, On Interpretation, Prior Analytics, Posterior Analytics, Topics, and On Sophistical Refutations. It lays the foundation of formal logic and systematic reasoning in Western philosophy.",
+      "why_read": "It establishes the first formal system of logic in history and shapes centuries of philosophical, theological, and scientific thought.",
+      "when_to_read": "When you want to understand the roots of formal reasoning and the historical foundations of logic before modern symbolic logic.",
+      "importance": "Foundational work in the history of logic and philosophy; influenced intellectual traditions for over two millennia.",
+      "prerequisites": [
+        "basic philosophical terminology",
+        "introductory logic concepts"
+      ],
       "pairs_well_with": [
-        "mathematical-logic-shoenfield",
-        "principia-mathematica"
-      ]
+        "a-mathematical-introduction-to-logic-enderton",
+        "meditations-marcus-aurelius"
+      ],
+      "source": {
+        "online_url": "https://www.rbjones.com/rbjpub/philos/classics/aristotl/obook_draft.pdf",
+        "file_path": "books/The Organon.pdf"
+      },
+      "status": "unread",
+      "notes": "Focus especially on Prior Analytics and Posterior Analytics for formal logical structure.",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-mathematical-analysis-of-logic",
+      "title": "The Mathematical Analysis of Logic: Being an Essay Towards a Calculus of Deductive Reasoning",
+      "author": ["George Boole"],
+      "category": "logic",
+      "subcategory": "history-of-logic",
+      "year_published": 1948,
+      "language": "English",
+      "tags": [
+        "mathematical logic",
+        "symbolic logic",
+        "deductive reasoning",
+        "history of logic",
+        "Boolean algebra"
+      ],
+      "level": "advanced",
+      "description": "In this seminal 1847 work, Boole argues that logic can be treated mathematically, establishing a calculus for deductive reasoning that laid foundations for modern symbolic logic. Unlike Aristotelian logic, Boole’s system represents logical propositions and operations using algebraic forms, paving the way for later developments in logic and computation.:contentReference[oaicite:0]{index=0}",
+      "why_read": "It’s one of the first works to treat logic with algebraic methods, foundational for computer science, Boolean algebra, and modern symbolic logic.:contentReference[oaicite:1]{index=1}",
+      "when_to_read": "After gaining basic familiarity with classical logic and algebraic notation, to appreciate the historical and mathematical leap Boole made. ",
+      "importance": "Historically significant as the first rigorous mathematical treatment of logic, precursor to Boolean algebra and fundamental to digital logic.:contentReference[oaicite:2]{index=2}",
+      "prerequisites": [
+        "basic logic",
+        "algebraic notation"
+      ],
+      "pairs_well_with": [
+        "laws-of-thought"
+      ],
+      "source": {
+        "online_url": "https://dn720004.ca.archive.org/0/items/mathematicalanal00booluoft/mathematicalanal00booluoft.pdf",
+        "file_path": "books/The%20Mathematical%20Analysis%20of%20Logic%20-%20George%20Boole%20(1847).pdf"
+      },
+      "status": "unread"
+    },
+    {
+      "id": "the-elements-of-computing-systems",
+      "title": "The Elements of Computing Systems: Building a Modern Computer from First Principles",
+      "author": ["Noam Nisan", "Shimon Schocken"],
+      "category": "computer-science",
+      "subcategory": "computer-architecture",
+      "year_published": 2005,
+      "language": "English",
+      "tags": [
+        "computer architecture",
+        "nand2tetris",
+        "hardware",
+        "compilers",
+        "operating systems",
+        "systems design",
+        "low-level computing"
+      ],
+      "level": "intermediate",
+      "description": "A hands-on guide to building a complete modern computer system from the ground up — starting from NAND logic gates and progressing through CPU design, memory, assembler, virtual machine, compiler, and a simple operating system.",
+      "why_read": "It gives a rare end-to-end understanding of how computers actually work. By building each layer yourself, you internalize the full stack — from hardware logic to high-level software.",
+      "when_to_read": "When you want to deeply understand how software translates into hardware, or before diving into advanced systems programming, compilers, or OS development.",
+      "importance": "Considered a classic in computer systems education. Widely used in universities and known through the 'Nand2Tetris' course.",
+      "prerequisites": [
+        "basic programming",
+        "binary and logic gates fundamentals"
+      ],
+      "pairs_well_with": [
+        "introduction-to-algorithms",
+        "modern-operating-systems",
+        "structure-and-interpretation-of-computer-programs"
+      ],
+      "source": {
+        "online_url": "http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf",
+        "file_path": "books/The%20Elements%20of%20Computing%20Systems.pdf"
+      },
+      "status": "unread",
+      "notes": "Work through all projects. The hardware simulator and VM implementation are key to real understanding.",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-c-programming-language",
+      "title": "The C Programming Language",
+      "author": ["Brian W. Kernighan", "Dennis M. Ritchie"],
+      "category": "computer-science",
+      "subcategory": "programming-languages",
+      "year_published": 1988,
+      "language": "English",
+      "tags": [
+        "c language",
+        "systems programming",
+        "unix",
+        "low-level programming",
+        "classic"
+      ],
+      "level": "intermediate",
+      "description": "The classic and authoritative introduction to the C programming language, written by the language's creator Dennis Ritchie and long-time collaborator Brian Kernighan. The book presents the language concisely while emphasizing clarity, efficiency, and practical programming style.",
+      "why_read": "It teaches C the way it was meant to be understood — minimal, precise, and close to the machine. Essential for understanding systems programming, compilers, and modern languages that evolved from C.",
+      "when_to_read": "When you want to deeply understand memory, pointers, and low-level program structure — especially before diving into operating systems, embedded systems, or performance-critical software.",
+      "importance": "Foundational. Often referred to as 'K&R', it defined C programming style and influenced decades of systems software development.",
+      "prerequisites": [
+        "basic programming concepts",
+        "variables and control flow"
+      ],
+      "pairs_well_with": [
+        "modern-operating-systems",
+        "computer-systems-a-programmers-perspective"
+      ],
+      "source": {
+        "online_url": "https://colorcomputerarchive.com/repo/Documents/Books/The%20C%20Programming%20Language%20%28Kernighan%20Ritchie%29.pdf",
+        "file_path": "books/The%20C%20Programming%20Language%20(Kernighan%20Ritchie).pdf"
+      },
+      "status": "unread",
+      "notes": "Focus on pointers, manual memory management, and the style conventions demonstrated in examples.",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-awk-programming-language",
+      "title": "The AWK Programming Language",
+      "author": [
+        "Alfred V. Aho",
+        "Brian W. Kernighan",
+        "Peter J. Weinberger"
+      ],
+      "category": "computer-science",
+      "subcategory": "programming-languages",
+      "year_published": 1988,
+      "language": "English",
+      "tags": [
+        "awk",
+        "unix",
+        "text processing",
+        "scripting",
+        "programming languages",
+        "pattern scanning"
+      ],
+      "level": "intermediate",
+      "description": "The original and authoritative guide to the AWK programming language, written by its creators. The book covers pattern scanning, text processing, data transformation, regular expressions, and scripting techniques within the Unix environment.",
+      "why_read": "It teaches a minimalist yet extremely powerful way of thinking about data processing. Essential for understanding Unix philosophy, pipelines, and text-centric computing.",
+      "when_to_read": "When you start working seriously with Unix/Linux systems, shell scripting, log processing, or large text datasets.",
+      "importance": "A foundational work in Unix tooling and scripting culture, written by the language's original designers.",
+      "prerequisites": [
+        "basic command line usage",
+        "regular expressions",
+        "fundamental programming concepts"
+      ],
+      "pairs_well_with": [
+        "the-unix-programming-environment",
+        "the-c-programming-language"
+      ],
+      "source": {
+        "online_url": "https://dn790008.ca.archive.org/0/items/pdfy-MgN0H1joIoDVoIC7/The_AWK_Programming_Language.pdf",
+        "file_path": "books/The%20AWK%20Programming%20Language.pdf"
+      },
+      "status": "unread",
+      "notes": "Pay special attention to the pattern-action model and how AWK fits into Unix pipelines.",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-art-of-thinking-clearly",
+      "title": "The Art of Thinking Clearly",
+      "author": ["Rolf Dobelli"],
+      "category": "psychology",
+      "subcategory": "cognitive-biases",
+      "year_published": 2013,
+      "language": "English",
+      "tags": [
+        "cognitive biases",
+        "decision making",
+        "psychology",
+        "thinking",
+        "behavioral science"
+      ],
+      "level": "general",
+      "description": "A collection of short chapters exploring common errors in human thinking and judgment—known as cognitive biases—and how they distort decision-making. Dobelli distills concepts from psychology and behavioral science into practical insights for clearer thinking and better choices in daily life.", 
+      "why_read": "It offers a practical mental toolkit to recognize and mitigate systematic thinking errors that everyone experiences, improving decisions in personal and professional contexts.", 
+      "when_to_read": "After you have some exposure to psychology or decision theory and want a practical, accessible guide to common thinking pitfalls.",
+      "importance": "One of the bestselling books on cognitive biases, widely translated and influential in discussions about human judgment and rational decision-making.",
+      "prerequisites": ["basic familiarity with cognitive psychology"],
+      "pairs_well_with": [
+        "thinking-fast-and-slow",
+        "predictably-irrational"
+      ],
+      "source": {
+        "online_url": "https://dn720002.ca.archive.org/0/items/HarborLibrary-Psychology/%E7%BD%97%E5%B0%94%E5%A4%AB%C2%B7%E5%A4%9A%E8%B4%9D%E9%87%8C%EF%BC%9AThe%20Art%20of%20Thinking%20Clearly.pdf",
+        "file_path": "books/The Art of Thinking Clearly.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-philosophy-of-logical-atomism",
+      "title": "The Philosophy of Logical Atomism",
+      "author": ["Bertrand Russell"],
+      "category": "philosophy",
+      "subcategory": "logic-and-language",
+      "year_published": 1918,
+      "language": "English",
+      "tags": [
+        "logical atomism",
+        "analytic philosophy",
+        "metaphysics",
+        "philosophy of language",
+        "Russell"
+      ],
+      "level": "advanced",
+      "description": "A foundational work in analytic philosophy in which Russell lays out his theory of logical atomism — the view that the world consists of atomic facts and that language and logic reveal this structure. The lectures define propositions, facts, and relations, and argue for analyzing complex ideas into simple logical components. :contentReference[oaicite:0]{index=0}",
+      "why_read": "It’s a classic text that influenced 20th-century philosophy of logic and language and shaped much of analytic philosophy. :contentReference[oaicite:1]{index=1}",
+      "when_to_read": "After introductory texts in logic and analytic philosophy; ideal once you have some grounding in early 20th-century philosophy. ",
+      "importance": "One of the key early works of analytic philosophy and a major statement of Russell’s metaphysics and philosophy of language. :contentReference[oaicite:2]{index=2}",
+      "prerequisites": [
+        "basic logic",
+        "analytic philosophy concepts"
+      ],
+      "pairs_well_with": [
+        "principia-mathematica",
+        "tractatus-logico-philosophicus"
+      ],
+      "source": {
+        "online_url": "https://sites.ualberta.ca/~francisp/NewPhil448/RussellPhilLogicalAtomismPears.pdf",
+        "file_path": "books/Russell-The%20Philosophy%20of%20Logical%20Atomism--Pears.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "write-great-code-ii",
+      "title": "Write Great Code II - Thinking Low Level, Writing High Level",
+      "author": ["Randall Hyde"],
+      "category": "computer-science",
+      "subcategory": "programming",
+      "year_published": 2005,
+      "language": "English",
+      "tags": ["assembly", "low-level", "high-level", "programming", "code optimization"],
+      "level": "intermediate",
+      "description": "Covers how to write efficient, maintainable code by understanding what happens at the low-level (assembly) while still programming in high-level languages. Focuses on performance, memory, and processor architecture.",
+      "why_read": "It bridges the gap between low-level hardware understanding and high-level programming, helping you write more efficient and robust code.",
+      "when_to_read": "After learning the basics of a high-level language and some understanding of computer architecture.",
+      "importance": "Essential for programmers who want to deeply understand how high-level code translates to machine-level operations.",
+      "prerequisites": ["basic programming", "intro to computer architecture"],
+      "pairs_well_with": ["computer-organization", "modern-compiler-design"],
+      "source": {
+        "online_url": "https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Assembly/WRITE%20GREAT%20CODE%2C%20Vol.%202%20Thinking%20Low-Level%2C%20Writing%20High-Level.pdf",
+        "file_path": "books/Randall%20Hyde%20-%20Write%20Great%20Code%20II%20-%20Thinking%20Low%20Level,%20Writing%20High%20Level.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-art-of-assembly-language-2nd-edition",
+      "title": "The Art of Assembly Language, 2nd Edition",
+      "author": ["Randall Hyde"],
+      "category": "computer-science",
+      "subcategory": "systems-programming",
+      "year_published": 2010,
+      "language": "English",
+      "tags": [
+        "assembly",
+        "x86",
+        "low-level",
+        "HLA",
+        "systems programming",
+        "computer architecture"
+      ],
+      "level": "intermediate",
+      "description": "A comprehensive and patient introduction to 32‑bit x86 assembly language programming using the High Level Assembler (HLA) as a teaching tool. It combines low‑level theory with practical coding examples, making assembly concepts accessible even to programmers familiar primarily with high‑level languages. Updated to support Linux, macOS, and FreeBSD. :contentReference[oaicite:0]{index=0}",
+      "why_read": "Great for understanding how computers work at the lowest levels and bridging the gap between high‑level languages and machine execution. Teaches both theory and practical assembly skills. :contentReference[oaicite:1]{index=1}",
+      "when_to_read": "After you have experience with at least one high‑level language like C or C++, and want to dive into how code translates to machine instructions. :contentReference[oaicite:2]{index=2}",
+      "importance": "One of the most thorough and referenced assembly language books for the classic x86 architecture, widely used in systems programming study. :contentReference[oaicite:3]{index=3}",
+      "prerequisites": [
+        "basic programming concepts",
+        "experience with a high‑level language (e.g., C/C++)",
+        "computer architecture fundamentals"
+      ],
+      "pairs_well_with": [
+        "computer-architecture",
+        "design-patterns",
+        "operating-systems"
+      ],
+      "source": {
+        "online_url": "https://colorcomputerarchive.com/repo/Documents/Books/The%20Art%20of%20Assembly%20Language%202nd%20Edition%20(Randall%20Hyde).pdf",
+        "file_path": "books/Randall%20Hyde%20-%20The%20Art%20of%20Assembly%20Language,%202nd%20Edition.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "programming-from-the-ground-up",
+      "title": "Programming from the Ground Up",
+      "author": ["Jonathan Bartlett", "Dominick Bruno Jr."],
+      "category": "computer-science",
+      "subcategory": "assembly-language",
+      "year_published": 2004,
+      "language": "English",
+      "tags": [
+        "assembly",
+        "linux",
+        "low-level programming",
+        "computer architecture",
+        "systems"
+      ],
+      "level": "beginner",
+      "description": "An introductory book that teaches programming and computer fundamentals through Linux assembly language, covering how processors view memory, how programs interact with the OS, and optimization techniques. :contentReference[oaicite:0]{index=0}",
+      "why_read": "It gives deep insight into how computers work under the hood — ideal for programmers who want a strong foundation in low-level concepts. :contentReference[oaicite:1]{index=1}",
+      "when_to_read": "Early in your learning path, after basic programming familiarity but before systems or OS-level courses.",
+      "importance": "Considered a classic for understanding assembly and systems fundamentals, even used in university courses. :contentReference[oaicite:2]{index=2}",
+      "prerequisites": ["basic programming concepts"],
+      "pairs_well_with": ["computer-architecture", "operating-systems"],
+      "source": {
+        "online_url": "https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf",
+        "file_path": "books/Programming_from_the_Ground_Up.pdf"
+      },
+      "status": "unread"
+    },
+    {
+      "id": "principia-mathematica-russell-whitehead",
+      "title": "Principia Mathematica",
+      "author": ["Bertrand Russell", "Alfred North Whitehead"],
+      "category": "mathematics",
+      "subcategory": "foundations-of-mathematics",
+      "year_published": 1910,
+      "language": "English",
+      "tags": [
+        "logic",
+        "foundations of mathematics",
+        "symbolic logic",
+        "logicism",
+        "history of math"
+      ],
+      "level": "advanced",
+      "description": "A monumental three‑volume work attempting to derive large swaths of classical mathematics from purely logical axioms and formal inference rules. It develops a ramified theory of types and formal symbolic logic to reduce mathematics to logic — a core statement of the logicist thesis. First published in three volumes between 1910 and 1913, Principia Mathematica is regarded as one of the most influential works in mathematical logic and analytic philosophy.:contentReference[oaicite:0]{index=0}",
+      "why_read": "It is historically significant as a foundational attempt to connect logic and mathematics in a formal system, shaping the development of symbolic logic and influencing later figures like Gödel, Church, and Turing.:contentReference[oaicite:1]{index=1}",
+      "when_to_read": "After studying formal logic and set theory basics and if you’re ready to tackle a dense, foundational classic in the philosophy of mathematics.",
+      "importance": "Considered one of the central works in the history of mathematical logic and foundational mathematics.:contentReference[oaicite:2]{index=2}",
+      "prerequisites": [
+        "basic logic",
+        "set theory",
+        "philosophy of mathematics"
+      ],
+      "pairs_well_with": [
+        "metalogic textbooks",
+        "Gödel’s incompleteness theorems writings"
+      ],
+      "source": {
+        "online_url": "https://www.uhu.es/francisco.moreno/gii_mac/docs/Principia_Mathematica_vol1.pdf",
+        "file_path": "books/Principia%20Mathematica%20-%20Russell%20&%20Whitehead%20(1910-1913).pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "plato-the-republic-ferrari-griffith",
+      "title": "Plato: The Republic",
+      "author": ["Plato", "G. R. F. Ferrari", "Tom Griffith"],
+      "category": "philosophy",
+      "subcategory": "ancient-philosophy",
+      "year_published": 2000,
+      "language": "English",
+      "tags": [
+        "political philosophy",
+        "justice",
+        "ideal state",
+        "Socratic dialogue",
+        "classics"
+      ],
+      "level": "advanced",
+      "description": "One of the foundational works of Western philosophy, *The Republic* is Plato’s Socratic dialogue on justice, the ideal state, the nature of the soul, and the philosopher’s role in society. This edition is edited by G. R. F. Ferrari and translated by Tom Griffith, with an introduction, notes, glossary, and guide to further reading — making it accessible yet rigorous. :contentReference[oaicite:0]{index=0}",
+      "why_read": "Because it’s a pillar of political and moral philosophy that explores questions about justice, society, knowledge, and human nature — themes that still shape modern thought. :contentReference[oaicite:1]{index=1}",
+      "when_to_read": "After you’ve read some introductory philosophy (like Socratic dialogues or introductory ethics) and want to dive deeper into political theory and foundational philosophical arguments.",
+      "importance": "One of the most influential philosophical works in history; foundational to Western political and ethical thought. :contentReference[oaicite:2]{index=2}",
+      "prerequisites": ["ancient-greek-philosophy-basics", "socratic-dialogues"],
+      "pairs_well_with": ["plato-the-dialogues", "aristotle-politics"],
+      "source": {
+        "online_url": "https://ia802802.us.archive.org/20/items/PlatoTheRepublicCambridgeTomGriffith/Plato%20The%20Republic%20(Cambridge%2C%20Tom%20Griffith).pdf",
+        "file_path": "books/Plato%20The%20Republic%20(Cambridge,%20Tom%20Griffith).pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "theories-of-personality-schultz",
+      "title": "Theories of Personality",
+      "author": ["Duane P. Schultz", "Sydney Ellen Schultz"],
+      "category": "psychology",
+      "subcategory": "personality-theory",
+      "year_published": 2016,
+      "language": "English",
+      "tags": [
+        "personality",
+        "psychology",
+        "theory",
+        "behavior",
+        "education"
+      ],
+      "level": "general",
+      "description": "A comprehensive introduction to major theories of personality, exploring historic and contemporary approaches (psychoanalytic, humanistic, behavioral, cognitive, trait, and social-learning), and showing how researchers and theorists conceptualize human personality and its development. Covers core theorists and integrates modern findings and cross-cultural considerations. ",
+      "why_read": "This is a foundational textbook for anyone studying personality psychology — it systematically compares major theoretical perspectives and shows how personality theories explain human behavior.",
+      "when_to_read": "Best read when starting a course on personality or psychological theory after basic introductory psychology.",
+      "importance": "One of the most widely adopted textbooks in personality psychology courses worldwide.",
+      "prerequisites": [
+        "introduction to psychology"
+      ],
+      "pairs_well_with": [
+        "personality-psychology"
+      ],
+      "source": {
+        "online_url": "https://staff.oouagoiwoye.edu.ng/uploads/579_COURSES_Personality_Theories_6779.pdf",
+        "file_path": "books/Personality_Theories_6779.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "on-computable-numbers-with-an-application-to-the-entscheidungsproblem",
+      "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+      "author": ["A. M. Turing"],
+      "category": "computer-science",
+      "subcategory": "theory-of-computation",
+      "year_published": 1936,
+      "language": "English",
+      "tags": [
+        "computability",
+        "turing machine",
+        "undecidability",
+        "entscheidungsproblem",
+        "foundations"
+      ],
+      "level": "advanced",
+      "description": "A foundational research paper by Alan M. Turing in which he introduces the notion of computable numbers and the abstract 'Turing machine', and uses this framework to show that the Entscheidungsproblem (decision problem) is unsolvable — there exists no general mechanical procedure to determine the truth of arbitrary mathematical statements. Turing's computation model became the theoretical basis for modern computer science and algorithmic logic. :contentReference[oaicite:0]{index=0}",
+      "why_read": "It's one of the most important works in theoretical computer science, laying the groundwork for the concept of computation, algorithms, and undecidability — essential for anyone studying computation theory or the limits of algorithmic problem‑solving. :contentReference[oaicite:1]{index=1}",
+      "when_to_read": "After gaining basic familiarity with automata, algorithms, and logic — ideally alongside an introductory course on computability or the theory of computation. :contentReference[oaicite:2]{index=2}",
+      "importance": "Seminal; this paper essentially **defined** what it means for a function or number to be computable and proved deep limits on what can be decided algorithmically. :contentReference[oaicite:3]{index=3}",
+      "prerequisites": [
+        "basic logic",
+        "finite automata",
+        "formal languages"
+      ],
+      "pairs_well_with": [
+        "introduction-to-theory-of-computation",
+        "recursive-function-theory"
+      ],
+      "source": {
+        "online_url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+        "file_path": "books/On%20Computable%20Numbers%20-%20Alan%20Turing%20(1936).pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "novum-organum",
+      "title": "Novum Organum",
+      "author": ["Francis Bacon"],
+      "category": "philosophy",
+      "subcategory": "philosophy-of-science",
+      "year_published": 1620,
+      "language": "Latin",
+      "tags": [
+        "philosophy",
+        "scientific-method",
+        "empiricism",
+        "inductive-reasoning",
+        "epistemology"
+      ],
+      "level": "advanced",
+      "description": "Novum Organum (Latin: 'New Organon') is a philosophical work by Francis Bacon proposing a new scientific methodology based on induction and systematic observation, challenging traditional Aristotelian logic and contributing to the foundations of the modern scientific method. It is composed in aphorisms and outlines both critique of older approaches and a constructive inductive method for studying nature. Its ideas were highly influential in shaping early modern science and empiricism. ",
+      "why_read": "It’s one of the key texts in the history of the scientific method and philosophy of science — essential for understanding the shift toward empirical and experimental approaches in Western thought. ",
+      "when_to_read": "After gaining some familiarity with basic logic and philosophy, especially if you’re interested in how modern science’s methods emerged historically. ",
+      "importance": "A foundational classic in philosophy and epistemology; marks a turning point in how systematic inquiry and knowledge generation are conceived. ",
+      "prerequisites": ["basic logic", "history-of-philosophy"],
+      "pairs_well_with": ["history-of-science", "empiricism-intro"],
+      "source": {
+        "online_url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/1432/0415_Bk.pdf",
+        "file_path": "books/Novum%20Organum%20-%20Francis%20Bacon.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "frege-philosophy-of-language",
+      "title": "Frege: Philosophy of Language",
+      "author": ["Michael Dummett"],
+      "category": "philosophy",
+      "subcategory": "philosophy-of-language",
+      "year_published": 1973,
+      "language": "English",
+      "tags": [
+        "philosophy",
+        "philosophy of language",
+        "Frege",
+        "analytic philosophy",
+        "semantics"
+      ],
+      "level": "advanced",
+      "description": "A comprehensive study of the philosophy of language and logic as developed by Gottlob Frege, tracing his influence on analytic philosophy and explaining his fundamental views on meaning, sense, reference, and the structure of language. Michael Dummett’s work is one of the most important interpretations of Frege’s philosophy and has been highly influential in contemporary debates in semantics and the theory of meaning. :contentReference[oaicite:0]{index=0}",
+      "why_read": "It’s a classic in philosophical literature on language and meaning, essential for anyone wanting to deeply understand Frege’s role in analytic philosophy and the foundations of semantics. :contentReference[oaicite:1]{index=1}",
+      "when_to_read": "After getting familiar with basic analytic philosophy concepts or introductory philosophy of language texts. Best approached with some grounding in logic and semantics. ",
+      "importance": "This book is considered a seminal secondary work on Frege’s philosophy of language and remains highly cited in philosophical discussions on meaning and reference. :contentReference[oaicite:2]{index=2}",
+      "prerequisites": [
+        "basic logic",
+        "introductory philosophy of language"
+      ],
+      "pairs_well_with": [
+        "frege-philosophy-of-mathematics",
+        "concepts-in-language-philosophy"
+      ],
+      "source": {
+        "online_url": "http://www.spiritual-minds.com/philosophy/assorted/Michael%20Dummett%20-%20Frege,%20Philosophy%20of%20Language[Harper&Row,%20719p].pdf",
+        "file_path": "books/Michael%20Dummett%20-%20Frege,%20Philosophy%20of%20Language[Harper&Row,%20719p].pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-meditations-of-marcus-aurelius-1887-collier-zimmern",
+      "title": "The Meditations of Marcus Aurelius",
+      "author": [
+        "Marcus Aurelius",
+        "Jeremy Collier",
+        "Alice Zimmern"
+      ],
+      "category": "philosophy",
+      "subcategory": "stoicism",
+      "year_published": 1887,
+      "language": "English",
+      "tags": [
+        "stoicism",
+        "philosophy",
+        "ancient",
+        "ethics",
+        "self-reflection",
+        "classics"
+      ],
+      "level": "advanced",
+      "description": "A classic collection of personal reflections and philosophical insights by Roman Emperor Marcus Aurelius (121–180 AD), translated from the original Greek by Jeremy Collier and revised with an introduction and notes by Alice Zimmern. The Meditations consists of twelve books of moral guidance and Stoic philosophy, originally written as private notes to himself but now regarded as one of the foundational texts of Stoic thought. This 1887 London edition was published by Walter Scott, including Zimmern’s introductory context and explanatory notes to help readers engage with Aurelius’s ideas. ",
+      "why_read": "Meditations offers profound insight into Stoic ethics, self-discipline, and leadership drawn from the mind of one of history’s most thoughtful rulers, making it essential reading for anyone interested in philosophy, personal growth, or reflective practice.",
+      "when_to_read": "After you've been introduced to basic ethical philosophy and want to deepen your understanding of personal resilience, virtue, and inner life.",
+      "importance": "Considered one of the greatest works of ancient philosophy, Meditations has influenced thinkers, leaders, and readers for centuries and remains central to Stoic and ethical literature. ",
+      "prerequisites": [
+        "Introduction to classical philosophy",
+        "Basic knowledge of Stoicism"
+      ],
+      "pairs_well_with": [
+        "niebuhr-on-the-nature-and-authority-of-ethical-laws",
+        "seneca-moral-letters-to-lucilius"
+      ],
+      "source": {
+        "online_url": "https://dn720006.ca.archive.org/0/items/meditationsofmar00marc/meditationsofmar00marc.pdf",
+        "file_path": "books/meditationsofmar00marc.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "mathematical-logic",
+      "title": "Mathematical Logic",
+      "author": ["Joseph Shoenfield"],
+      "category": "mathematics",
+      "subcategory": "logic",
+      "year_published": 1967,
+      "language": "English",
+      "tags": [
+        "logic",
+        "mathematical logic",
+        "proof theory",
+        "model theory",
+        "recursion theory"
+      ],
+      "level": "advanced",
+      "description": "A foundational text in mathematical logic covering propositional and first-order logic, completeness, compactness, recursive functions, and model theory. The book develops both syntax and semantics rigorously, with emphasis on formal proofs and foundational results.",
+      "why_read": "It’s a classic reference in formal logic and computability theory, essential for understanding the mathematical underpinnings of proofs and models in computer science and mathematics.",
+      "when_to_read": "After mastering basic discrete mathematics and elementary logic; ideal for graduate-level study or deep self-study in logic.",
+      "importance": "One of the definitive texts on mathematical logic, widely cited and used in both mathematics and theoretical computer science.",
+      "prerequisites": [
+        "discrete mathematics",
+        "elementary set theory",
+        "basic proof techniques"
+      ],
+      "pairs_well_with": [
+        "a-mathematical-introduction-to-logic-enderton-1972",
+        "computability-and-logic-soare-2016"
+      ],
+      "source": {
+        "online_url": "https://www.karlin.mff.cuni.cz/~krajicek/shoenfield.pdf",
+        "file_path": "books/Mathematical%20Logic%20-%20Joseph%20Shoenfield%20(1967)%20pdf.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "mastering-assembly-programming-intel",
+      "title": "Mastering Assembly Programming: From Instruction Set to Kernel Module with Intel Processor",
+      "author": ["Alexey Lyashko"],
+      "category": "computer-science",
+      "subcategory": "programming-languages",
+      "year_published": 2017,
+      "language": "English",
+      "tags": [
+        "assembly",
+        "x86",
+        "programming",
+        "intel-architecture",
+        "low-level"
+      ],
+      "level": "intermediate",
+      "description": "A comprehensive guide to assembly programming on Intel processors, walking from basic instruction sets and CPU internals through development setups, memory addressing, and integration with high‑level languages, all the way to creating efficient assembly routines and kernel modules.",
+      "why_read": "Helps deepen understanding of how high‑level code translates to machine instructions, how CPUs execute them, and gives practical skills to write and integrate assembly code with other languages — useful for systems programmers and reverse engineers alike.",
+      "when_to_read": "After learning basic C/C++ and with some exposure to systems concepts (e.g., OS, memory management), before diving into OS internals or compiler development.",
+      "importance": "An intermediate level book that bridges theory and practical assembly coding specifically focused on Intel architectures — valuable as both reference and applied learning resource.",
+      "prerequisites": [
+        "basic C/C++ programming",
+        "computer architecture fundamentals"
+      ],
+      "pairs_well_with": [
+        "modern-x86-64-assembly-language-programming",
+        "art-of-assembly-language"
+      ],
+      "source": {
+        "online_url": "https://api.pageplace.de/preview/DT0400.9781787120075_A30943377/preview-9781787120075_A30943377.pdf",
+        "file_path": "books/mastering-assembly-programming-1nbsped-9781787287488_compress.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "the-communist-manifesto",
+      "title": "The Communist Manifesto",
+      "author": ["Karl Marx", "Friedrich Engels"],
+      "category": "political-science",
+      "subcategory": "political-theory",
+      "year_published": 1848,
+      "language": "English",
+      "tags": [
+        "communism",
+        "political theory",
+        "class struggle",
+        "socialism",
+        "economics"
+      ],
+      "level": "general",
+      "description": "A political pamphlet originally commissioned by the Communist League and first published in London in 1848. It presents Marx and Engels' materialist conception of history and argues that class struggle drives societal change, advocating for the proletariat to overthrow capitalist systems and establish a classless society. It opens with the famous line about a \"spectre haunting Europe—the spectre of communism\" and ends with a call for workers' solidarity. :contentReference[oaicite:0]{index=0}",
+      "why_read": "It is one of the most influential political documents in modern history, foundational to Marxist thought and debates about capitalism, class, and revolutionary politics. :contentReference[oaicite:1]{index=1}",
+      "when_to_read": "Early in your studies of political philosophy or economic history to grasp foundational critiques of capitalism and class relations. :contentReference[oaicite:2]{index=2}",
+      "importance": "A cornerstone text in modern political thought, shaping socialist, communist, and critical theory traditions globally. :contentReference[oaicite:3]{index=3}",
+      "prerequisites": [
+        "History of capitalism",
+        "Basic political philosophy"
+      ],
+      "pairs_well_with": [
+        "das-kapital" 
+      ],
+      "source": {
+        "online_url": "https://ect.humspace.ucla.edu/wp-content/uploads/2025/04/Marx-and-Engels-Communist-Manifesto.pdf",
+        "file_path": "books/Marx-and-Engels-Communist-Manifesto.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
+    },
+    {
+      "id": "macroeconomics-mankiw",
+      "title": "Macroeconomics",
+      "author": ["N. Gregory Mankiw"],
+      "category": "economics",
+      "subcategory": "macro",
+      "year_published": 2021,
+      "language": "English",
+      "tags": [
+        "macroeconomics",
+        "economic theory",
+        "policy",
+        "growth",
+        "inflation",
+        "unemployment"
+      ],
+      "level": "intermediate",
+      "description": "A widely used textbook introducing the principles and modern applications of macroeconomic theory, covering topics such as national income, monetary and fiscal policy, economic growth, inflation, and unemployment.",
+      "why_read": "It provides a clear, authoritative overview of macroeconomics that is standard in many undergraduate courses and is useful for both students and practitioners wanting a coherent foundation.",
+      "when_to_read": "After completing introductory microeconomics and basic economic principles courses.",
+      "importance": "Considered one of the standard introductory textbooks in macroeconomics, used in universities worldwide.",
+      "prerequisites": [
+        "basic economics principles"
+      ],
+      "pairs_well_with": [
+        "principles-of-microeconomics"
+      ],
+      "source": {
+        "online_url": "https://www.econpage.com/302/mankiw.pdf",
+        "file_path": "books/MACROECONOMICS.pdf"
+      },
+      "status": "unread",
+      "notes": "",
+      "added_date": "2026-02-21"
     }
   ]
 }
