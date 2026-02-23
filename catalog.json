@@ -957,43 +957,6 @@
       "added_date": "2026-02-21"
     },
     {
-      "id": "logic-in-computer-science-modelling-and-reasoning-about-systems",
-      "title": "Logic in Computer Science: Modelling and Reasoning about Systems",
-      "author": [
-        "Michael Huth",
-        "Mark Ryan"
-      ],
-      "category": "computer-science",
-      "subcategory": "logic",
-      "year_published": 2004,
-      "language": "English",
-      "tags": [
-        "logic",
-        "formal methods",
-        "model checking",
-        "verification",
-        "theoretical computer science"
-      ],
-      "level": "intermediate",
-      "description": "A well‑regarded textbook introducing formal logic techniques and reasoning methods used in computer science, focusing on modelling, verification, and reasoning about systems with logic‑based tools. It covers propositional logic, predicate logic, model checking, program verification, modal logic and decision procedures. ",
-      "why_read": "Because it bridges the gap between abstract logical theory and practical reasoning techniques used in modern software and hardware verification. It’s frequently used in undergraduate and graduate courses in formal methods. ",
-      "when_to_read": "After you’ve learned basic logic (propositional & predicate) and want to understand how logic is applied in system verification and reasoning. ",
-      "importance": "Considered a classic and practical introduction to logic in computer science with lasting relevance in formal verification and reasoning. ",
-      "prerequisites": [
-        "propositional logic",
-        "predicate logic"
-      ],
-      "pairs_well_with": [
-        "model-checking textbooks",
-        "automata theory"
-      ],
-      "source": {
-        "online_url": "https://historyofeconomicthought.mcmaster.ca/hobbes/Leviathan.pdf",
-        "file_path": "books/Leviathan.pdf"
-      },
-      "status": "unread"
-    },
-    {
       "id": "a-theory-of-justice-revised-edition",
       "title": "A Theory of Justice: Revised Edition",
       "author": ["John Rawls"],
